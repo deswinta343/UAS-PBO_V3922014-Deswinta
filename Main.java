@@ -24,12 +24,12 @@ class Mahasiswa {
 public class Main {
     public static void main(String[] args) {
         // Membuat objek mahasiswa1
-        Mahasiswa mahasiswa1 = new Mahasiswa("John Doe", "123456789", 20);
+        Mahasiswa mahasiswa1 = new Mahasiswa("Deswinta Faadhilah Eka susanto", "3922014", 19);
         // Memanggil metode tampilkanInfo() pada objek mahasiswa1
         mahasiswa1.tampilkanInfo();
 
         // Membuat objek mahasiswa2
-        Mahasiswa mahasiswa2 = new Mahasiswa("Jane Smith", "987654321", 22);
+        Mahasiswa mahasiswa2 = new Mahasiswa("Audy", "987654321", 19);
         // Memanggil metode tampilkanInfo() pada objek mahasiswa2
         mahasiswa2.tampilkanInfo();
     }
